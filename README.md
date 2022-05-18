@@ -1,5 +1,6 @@
 # Alpha magnitude
-Code for the computation of alpha magnitude, introduced in the paper "Alpha magnitude" by Miguel O'Mally, Sara Kalisnik, Nina Otter.
+Code for the computation of alpha magnitude, introduced in the paper "Alpha magnitude" by [Miguel O'Malley](https://momalley.wescreates.wesleyan.edu), [Sara Kalisnik](https://people.math.ethz.ch/~skalisnik/), [Nina Otter](https://www.ninaotter.com).
+
 
 ## Installation
 - Install the python implementation of GUDHI.
