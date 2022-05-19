@@ -1,6 +1,7 @@
 # Alpha magnitude
 Code for the computation of alpha magnitude, introduced in the paper "Alpha magnitude" by [Miguel O'Malley](https://momalley.wescreates.wesleyan.edu), [Sara Kalisnik](https://people.math.ethz.ch/~skalisnik/), [Nina Otter](https://www.ninaotter.com).
 
+We also provide samples from the Cantor set, the Feigenbaum attractor as well as the unit circle.
 
 ## Installation
 - Install the python implementation of GUDHI.
