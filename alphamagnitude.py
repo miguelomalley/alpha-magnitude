@@ -27,6 +27,9 @@ def alphacomplexpersget(path, normalize=False, **kwargs): #Takes a file path or 
         cloud=np.loadtxt(path, delimiter=',', dtype='float64')
     else:
         cloud=path
+    if np.ndim(cloud)==1:
+        Z=np.zeros_like(cloud)
+        cloud=np.c_[cloud,Z]    
     a_com=gd.AlphaComplex(points=cloud) 
     simplex_tree = a_com.create_simplex_tree()
     per=simplex_tree.persistence()
